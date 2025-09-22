@@ -49,6 +49,9 @@ keys/
 youtube-credentials.json
 youtube-oauth.json
 youtube-token.json
+youtube_api_key.txt
+youtube-api-key.txt
+youtube_api_key*.txt
 client_secret*.json
 client_id*.json
 
@@ -325,6 +328,113 @@ docs/_build/
 site/
 
 # =============================================================================
+# ADVANCED SECURITY PATTERNS
+# =============================================================================
+
+# Additional credential patterns
+*credentials*.json
+*secret*.json
+*key*.json
+*private*.json
+*auth*.json
+*token*.json
+*oauth*.json
+
+# Common credential file names
+secrets.yaml
+secrets.yml
+config.yaml
+config.yml
+settings.yaml
+settings.yml
+local.yaml
+local.yml
+
+# Certificate and key files
+*.crt
+*.cer
+*.der
+*.csr
+*.p7b
+*.p7c
+*.p7s
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+known_hosts
+authorized_keys
+
+# GPG keys
+*.gpg
+*.asc
+*.pgp
+pubring.gpg
+secring.gpg
+trustdb.gpg
+
+# Docker secrets
+docker-compose.override.yml
+docker-compose.prod.yml
+.dockerignore
+
+# Kubernetes secrets
+secrets.yaml
+secrets.yml
+kustomization.yaml
+kustomization.yml
+
+# CI/CD secrets
+.github/workflows/secrets/
+.gitlab-ci-secrets.yml
+azure-pipelines-secrets.yml
+jenkins-secrets.xml
+
+# Cloud provider credentials
+.aws/
+.azure/
+.gcp/
+.oci/
+.terraform/
+terraform.tfvars
+*.auto.tfvars
+
+# Database connection strings
+connection-string.txt
+db-connection.txt
+database-url.txt
+
+# =============================================================================
+# SENTINEL SECURITY ENFORCEMENT
+# =============================================================================
+
+# Temporary security files (created by Sentinel)
+setup_real_credentials.py
+*_credentials_*.py
+*_secret_*.py
+*_key_*.py
+security_audit_*.py
+credential_test_*.py
+
+# Security scan results
+security-scan-results/
+vulnerability-reports/
+penetration-test-results/
+security-audit-*.json
+security-audit-*.xml
+security-audit-*.html
+
+# =============================================================================
 # SECURITY REMINDERS
 # =============================================================================
 
@@ -335,9 +445,15 @@ site/
 # - Database credentials
 # - Personal information
 # - Production configuration
+# - Private keys or certificates
+# - SSH keys or GPG keys
+# - Cloud provider credentials
+# - Connection strings or URLs with credentials
 
 # If you accidentally commit sensitive data:
 # 1. Remove it from git history immediately
 # 2. Rotate/regenerate the compromised credentials
 # 3. Update this .gitignore file
 # 4. Review git history for other sensitive data
+# 5. Run security scan to verify cleanup
+# 6. Update team on incident response procedures

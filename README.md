@@ -1,4 +1,4 @@
-# 🛡️ YouTube2Sheets-Secure
+# 🛡️ YouTube2Sheets - Secure YouTube to Google Sheets Automation
 
 A secure, enterprise-grade YouTube to Google Sheets automation tool with comprehensive credential protection and advanced security features.
 
@@ -6,19 +6,21 @@ A secure, enterprise-grade YouTube to Google Sheets automation tool with compreh
 
 - **Zero Credential Exposure**: All API keys and credentials are stored in environment variables
 - **Comprehensive .gitignore**: Protects sensitive files from accidental commits
-- **Environment Template**: `.env.example` provides secure setup guidance
+- **Environment Template**: `env_example.txt` provides secure setup guidance
 - **Security Verification**: Built-in tools to verify no sensitive data is exposed
 - **Production Ready**: Designed with security-first principles
 
 ## 🚀 Quick Start
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/GRsoldier7/YouTube2Sheets-Secure.git
-cd YouTube2Sheets-Secure
+git clone https://github.com/GRsoldier7/YouTube2Sheets.git
+cd YouTube2Sheets
 ```
 
 ### 2. Set Up Environment
+
 ```bash
 # Run the secure setup script
 python setup_secure_environment.py
@@ -30,8 +32,10 @@ python setup_secure_environment.py
 ```
 
 ### 3. Configure Your Credentials
+
 Edit the `.env` file with your actual API keys:
-```env
+
+```bash
 YOUTUBE_API_KEY=your_actual_youtube_api_key_here
 YOUTUBE_API_KEY_BACKUP=your_backup_youtube_api_key_here
 GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON=credentials.json
@@ -39,6 +43,7 @@ GOOGLE_SHEET_ID=your_google_sheet_id_here
 ```
 
 ### 4. Run the Application
+
 ```bash
 python youtube_to_sheets_gui.py
 ```
@@ -46,6 +51,7 @@ python youtube_to_sheets_gui.py
 ## 🔒 Security Verification
 
 Before pushing any changes, run the security verification:
+
 ```bash
 python verify_security.py
 ```
@@ -55,7 +61,7 @@ This ensures no sensitive data will be committed to the repository.
 ## 📁 Project Structure
 
 ```
-YouTube2Sheets-Secure/
+YouTube2Sheets/
 ├── .env                    # Your API keys (IGNORED by git)
 ├── credentials.json        # Google Sheets credentials (IGNORED by git)
 ├── .env.example           # Template for others
@@ -100,6 +106,7 @@ YouTube2Sheets-Secure/
 ## 🚨 Security Notice
 
 This repository is designed with security-first principles. All sensitive credentials are:
+
 - Stored in environment variables
 - Protected by comprehensive `.gitignore`
 - Never committed to version control
