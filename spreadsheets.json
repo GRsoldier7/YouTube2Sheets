@@ -1,0 +1,29 @@
+{
+  "spreadsheets": [
+    {
+      "name": "Default Spreadsheet",
+      "url": "https://docs.google.com/spreadsheets/d/1CIKN4b8L6Awdys5tv4Ht_LirSvHgx0Hscj9MMzBKjZg/edit?gid=836162600#gid=836162600",
+      "id": "1CIKN4b8L6Awdys5tv4Ht_LirSvHgx0Hscj9MMzBKjZg",
+      "is_default": false
+    },
+    {
+      "name": "Technical",
+      "url": "https://docs.google.com/spreadsheets/d/1CIKN4b8L6Awdys5tv4Ht_LirSvHgx0Hscj9MMzBKjZg/edit",
+      "id": "1CIKN4b8L6Awdys5tv4Ht_LirSvHgx0Hscj9MMzBKjZg",
+      "is_default": true
+    },
+    {
+      "name": "Bible",
+      "url": "https://docs.google.com/spreadsheets/d/1H36Q0whCdJouqJq4xwXsEwYBa7EVS-uHjng1_rTSRWc/edit",
+      "id": "1H36Q0whCdJouqJq4xwXsEwYBa7EVS-uHjng1_rTSRWc",
+      "is_default": false
+    },
+    {
+      "name": "SofterSkills",
+      "url": "https://docs.google.com/spreadsheets/d/1J1uPy9beUCGXztfCeCe-FOGFgoqpnyCbnH4US9SrzO0/edit",
+      "id": "1J1uPy9beUCGXztfCeCe-FOGFgoqpnyCbnH4US9SrzO0",
+      "is_default": false
+    }
+  ],
+  "last_used": "Technical"
+}

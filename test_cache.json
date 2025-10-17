@@ -1,0 +1,18 @@
+{
+  "test_key": {
+    "etag": "test_etag",
+    "payload": {
+      "data": "test"
+    },
+    "timestamp": "2025-10-16T23:48:59.802266",
+    "hit_count": 0
+  },
+  "key1": {
+    "etag": "etag1",
+    "payload": {
+      "data": "test1"
+    },
+    "timestamp": "2025-10-17T00:07:36.643768",
+    "hit_count": 0
+  }
+}

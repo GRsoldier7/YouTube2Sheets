@@ -23,6 +23,7 @@ service-account-*.json
 *-service-account.json
 google-credentials.json
 gcp-credentials.json
+credentials/
 
 # OAuth tokens and refresh tokens
 oauth-token.json

@@ -1,0 +1,81 @@
+# PolyChronos Ω - YouTube2Sheets Project Rules
+# =============================================
+
+## Core Quality Mandates
+- All code must be production-ready with comprehensive error handling
+- Security-first approach: No credentials in code, environment variables only
+- Comprehensive logging for debugging and monitoring
+- Type hints required for all function parameters and returns
+- Docstrings required for all classes and functions
+- Unit tests required for all business logic
+
+## Code Standards
+- Python 3.8+ compatibility
+- Follow PEP 8 style guidelines
+- Use f-strings for string formatting
+- Prefer pathlib over os.path
+- Use dataclasses for data structures
+- Async/await for I/O operations when beneficial
+
+## Security Requirements
+- Never commit .env files or credentials.json
+- All API keys must be loaded from environment variables
+- Validate all user inputs
+- Use secure random generation for any random operations
+- Implement proper error handling without exposing sensitive information
+
+## Testing Requirements
+- Unit tests for all core functionality
+- Integration tests for API interactions
+- Security tests to verify no credential exposure
+- Performance tests for large data processing
+- GUI tests for user interactions
+
+## Documentation Standards
+- README.md must be comprehensive and up-to-date
+- All functions must have clear docstrings
+- Architecture decisions must be documented
+- API documentation for any external interfaces
+- User guides for GUI operations
+
+## Error Handling
+- All exceptions must be caught and logged
+- User-friendly error messages in GUI
+- Graceful degradation when services are unavailable
+- Retry logic for transient failures
+- Circuit breaker pattern for external API calls
+
+## Performance Requirements
+- Process videos in batches to avoid memory issues
+- Implement progress tracking for long operations
+- Use threading for GUI responsiveness
+- Cache frequently accessed data
+- Optimize API calls to minimize quota usage
+
+## GUI Standards
+- Use CustomTkinter for modern appearance
+- Responsive design that works on different screen sizes
+- Clear visual feedback for all operations
+- Keyboard shortcuts for common actions
+- Accessibility considerations
+
+## API Integration
+- Implement proper rate limiting
+- Handle API quota exceeded scenarios
+- Support for API key rotation
+- Fallback mechanisms for service failures
+- Comprehensive logging of API interactions
+
+## Data Processing
+- Validate all data before processing
+- Handle missing or malformed data gracefully
+- Implement data transformation pipelines
+- Support for different data formats
+- Data integrity checks
+
+## Deployment
+- Support for different operating systems
+- Easy installation process
+- Clear setup instructions
+- Environment validation
+- Health checks for all services

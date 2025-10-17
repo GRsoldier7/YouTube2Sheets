@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-13T09:21:01.957507",
+  "duration_seconds": 40.686067,
+  "total_tests": 6,
+  "passed": 3,
+  "failed": 2,
+  "warnings": 1,
+  "success_rate": 50.0,
+  "recommendation": "NO-GO",
+  "test_results": [
+    {
+      "test_name": "Single Channel Sync",
+      "status": "PASSED",
+      "details": "Processed 3, Wrote 3",
+      "evidence": "Tab: QA_TEST_1, Channel: @TechTFQ",
+      "timestamp": "2025-10-13T09:20:38.750423"
+    },
+    {
+      "test_name": "Multi-Channel Sync",
+      "status": "FAILED",
+      "details": "Status: failed, Errors: ['Failed to write videos to Google Sheets']",
+      "evidence": "",
+      "timestamp": "2025-10-13T09:20:54.309829"
+    },
+    {
+      "test_name": "Error Handling",
+      "status": "WARNING",
+      "details": "Invalid channel returned success (unexpected)",
+      "evidence": "",
+      "timestamp": "2025-10-13T09:20:55.544142"
+    },
+    {
+      "test_name": "Data Quality",
+      "status": "PASSED",
+      "details": "All 3 videos have valid data",
+      "evidence": "Checked: video_id, title, duration, view_count, url",
+      "timestamp": "2025-10-13T09:20:57.788619"
+    },
+    {
+      "test_name": "API Efficiency",
+      "status": "PASSED",
+      "details": "ETag caching operational (cache messages visible in output)",
+      "evidence": "First call: 2 videos, Second call: 2 videos",
+      "timestamp": "2025-10-13T09:21:00.089286"
+    },
+    {
+      "test_name": "Google Sheets Integration",
+      "status": "FAILED",
+      "details": "Data writing failed",
+      "evidence": "",
+      "timestamp": "2025-10-13T09:21:01.951640"
+    }
+  ]
+}

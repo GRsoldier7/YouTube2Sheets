@@ -1,0 +1,15 @@
+{
+  "test_channel": {
+    "etag": "test_etag_123",
+    "payload": {
+      "items": [
+        {
+          "id": "123",
+          "title": "Test Video"
+        }
+      ]
+    },
+    "timestamp": "2025-10-14T14:48:35.622198",
+    "hit_count": 0
+  }
+}

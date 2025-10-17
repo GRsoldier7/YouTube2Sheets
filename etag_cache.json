@@ -1,0 +1,114 @@
+{
+  "test_key": {
+    "etag": "test_etag",
+    "payload": {
+      "data": "test_value"
+    },
+    "timestamp": "2025-10-17T01:14:36.973438",
+    "hit_count": 0
+  },
+  "channel_123": {
+    "etag": "etag_123",
+    "payload": {
+      "videos": [
+        {
+          "id": "123",
+          "title": "Test Video"
+        }
+      ]
+    },
+    "timestamp": "2025-10-06T19:40:14.840367",
+    "hit_count": 0
+  },
+  "key_0": {
+    "etag": "etag_0",
+    "payload": {
+      "data": "value_0"
+    },
+    "timestamp": "2025-10-06T19:40:14.843420",
+    "hit_count": 0
+  },
+  "key_1": {
+    "etag": "etag_1",
+    "payload": {
+      "data": "value_1"
+    },
+    "timestamp": "2025-10-06T19:40:14.844051",
+    "hit_count": 0
+  },
+  "key_2": {
+    "etag": "etag_2",
+    "payload": {
+      "data": "value_2"
+    },
+    "timestamp": "2025-10-06T19:40:14.844984",
+    "hit_count": 0
+  },
+  "key_3": {
+    "etag": "etag_3",
+    "payload": {
+      "data": "value_3"
+    },
+    "timestamp": "2025-10-06T19:40:14.845712",
+    "hit_count": 0
+  },
+  "key_4": {
+    "etag": "etag_4",
+    "payload": {
+      "data": "value_4"
+    },
+    "timestamp": "2025-10-06T19:40:14.846585",
+    "hit_count": 0
+  },
+  "key_5": {
+    "etag": "etag_5",
+    "payload": {
+      "data": "value_5"
+    },
+    "timestamp": "2025-10-06T19:40:14.847264",
+    "hit_count": 0
+  },
+  "key_6": {
+    "etag": "etag_6",
+    "payload": {
+      "data": "value_6"
+    },
+    "timestamp": "2025-10-06T19:40:14.847801",
+    "hit_count": 0
+  },
+  "key_7": {
+    "etag": "etag_7",
+    "payload": {
+      "data": "value_7"
+    },
+    "timestamp": "2025-10-06T19:40:14.848464",
+    "hit_count": 0
+  },
+  "key_8": {
+    "etag": "etag_8",
+    "payload": {
+      "data": "value_8"
+    },
+    "timestamp": "2025-10-06T19:40:14.849470",
+    "hit_count": 0
+  },
+  "key_9": {
+    "etag": "etag_9",
+    "payload": {
+      "data": "value_9"
+    },
+    "timestamp": "2025-10-06T19:40:14.850520",
+    "hit_count": 0
+  },
+  "test_channel_id": {
+    "etag": "test_etag_123",
+    "payload": {
+      "videos": [
+        "video1",
+        "video2"
+      ]
+    },
+    "timestamp": "2025-10-11T20:46:11.231895",
+    "hit_count": 0
+  }
+}

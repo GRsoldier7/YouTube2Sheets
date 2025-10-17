@@ -1,0 +1,5 @@
+{
+  "level": "INFO",
+  "file": "logs/youtube2sheets.log",
+  "json_logging": false
+}
